@@ -37,7 +37,7 @@ double GetTime() { return (double)esp_timer_get_time() / 1000000; }
 
 int RamTest()
 	{
-	int rs[] = { 1,2,4,8,16,32,64,128,256,512,1024,2048,4000 };
+	int rs[] = { 1,2,4,8,16,32,64,128,256,512,1024,2048,3072 };
 	printf("Ram Speed Test!\n\n");
 	char xx = 0;
 	for (int a = 0; a < 13; a++)
